@@ -1,57 +1,30 @@
 # DevCamper API
 
-###### Setup:
+## Usage:
 
-First, clone the repository and go in config.env to add the fields according to the following template:
+First, clone the repository and go in "config/config.env.env" and update the values/settings to your own
 
-```
-
-NODE_ENV=development
-PORT=5000
-
-MONGO_URI=
-
-GEOCODER_PROVIDER=
-GEOCODER_API_KEY=
-
-FILE_UPLOAD_PATH=
-MAX_FILE_UPLOAD=1000000
-
-JWT_SECRET=
-JWT_EXPIRE=30d
-JWT_COOKIE_EXPIRE=30
-
-SMTP_HOST=
-SMTP_PORT=
-SMTP_EMAIL=
-SMTP_PASSWORD=
-FROM_EMAIL=
-FROM_NAME=
-
-```
-
-Next, download the node dependencies by running:
+## Install Dependencies
 
 ```
 npm install
 ```
 
-within the folder.
-
-To run the server in production, run:
+## Run App
 
 ```
+# Run in prod mode
 npm run start
-```
 
-To run the server in development, run:
-
-```
+# Run in prod mode
 npm run dev
 ```
+
+- Version: 1.0.0
+- Liscence: MIT
 
 Lastly, I want to thank my biggest inspiration, Brad Traversy, for walking me through the creation of this API.
 
 > Now we've gaht to add a user. We can put anything here, it doesn't matta. I mean like, I dunno, we'll just go with Jahn Doe.
 
-> - Professor Brad Traversy
+> Professor Brad Traversy
